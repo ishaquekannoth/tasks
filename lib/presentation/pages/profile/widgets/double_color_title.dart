@@ -4,20 +4,17 @@ import 'package:task/app/utils/app_colors.dart';
 class DoubleColorTitle extends StatelessWidget {
   final String text1;
   final String text2;
-  Color? firstColor;
+  final Color? firstColor;
   final double gap;
   final double textSize;
-  DoubleColorTitle({
+  const DoubleColorTitle({
     Key? key,
     required this.text1,
     required this.text2,
-    this.firstColor,
+    this.firstColor = Colors.white,
     this.gap = 3,
     this.textSize = 20,
-  }) : super(key: key) {
-    firstColor ?? (firstColor = Colors.white);
-  }
-
+  }) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Row(

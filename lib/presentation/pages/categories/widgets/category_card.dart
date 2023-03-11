@@ -2,24 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:task/data/models/products/product_model.dart';
 
 class CategoryCard extends StatelessWidget {
-  void Function()? onTap;
-  TextStyle? style;
-  String? bottomText;
-  ProductsModel? productsModel;
-  CategoryCard(
-      {super.key,
-      this.style,
-      this.bottomText,
-      this.onTap,
-      this.productsModel}) {
-    bottomText ?? (bottomText = "Bottom Text");
-    style ??
-        (style = const TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 14,
-            color: Colors.white,
-            overflow: TextOverflow.ellipsis));
-  }
+  final void Function()? onTap;
+  final TextStyle? style;
+  final String? bottomText;
+  final ProductsModel? productsModel;
+  const CategoryCard({
+    super.key,
+    this.style = const TextStyle(
+        fontWeight: FontWeight.bold,
+        fontSize: 14,
+        color: Colors.white,
+        overflow: TextOverflow.ellipsis),
+    this.onTap,
+    this.productsModel,
+    this.bottomText = "Bottom Text",
+  });
 
   @override
   Widget build(BuildContext context) {
