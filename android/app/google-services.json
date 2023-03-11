@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "784382113451",
+    "project_id": "task-e16c1",
+    "storage_bucket": "task-e16c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784382113451:android:7e78d8bf6932ff6951a9ee",
+        "android_client_info": {
+          "package_name": "com.learning.task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784382113451-gjkqiq6n6sf1u8jglta1u8ask0rj958n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaAzUUJuIUofNPpMDfdgK9QpRNa0Lv2Mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784382113451-gjkqiq6n6sf1u8jglta1u8ask0rj958n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
